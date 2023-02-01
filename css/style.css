@@ -1,0 +1,58 @@
+body {
+    font-family: "Arial", serif;
+    font-size: 12pt;
+    background-image: url("../assets/background.jpg");
+    background-attachment: fixed;
+}
+
+td {
+    border: solid 2px lightgrey;
+    text-align: left;
+    vertical-align: top;
+    width: 100px
+}
+
+#scrolling_page {
+    background-image: url("../assets/scrolling_background.jfif");
+    background-size: auto 100%;
+    width: 90%;
+    margin: auto;
+}
+
+.title {
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+.portrait {
+    float: right;
+}
+
+.author_link {
+    text-decoration: none;
+}
+
+.author_link:hover {
+    text-decoration: underline;
+}
+
+.poem {
+    text-align: center;
+    white-space: pre;
+}
+
+.fk1000a {
+    background-color: #00bfff;
+}
+
+.fk2000b {
+    background-color: yellow;
+}
+
+.cs305g {
+    background-color: red;
+}
+
+.cs2600 {
+    background-color: green;
+}

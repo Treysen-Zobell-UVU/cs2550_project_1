@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        body {
-            font-family: "Comic Sans MS", serif
-        }
-        td {
-            border: solid 2px lightgrey;
-            text-align: left;
-            vertical-align: top;
-            width: 100px
-        }
-    </style>
-
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <title>Treysen Zobell</title>
 </head>
 <body>
 
+<div id="scrolling_page">
+<! -- Name -->
+<header class="title">
+    Treysen Zobell
+    <hr>
+</header>
+
 <! -- Header and Page Title -->
-<img alt="Portrait" src="portrait.jfif" style="float:right">
+<img alt="Portrait" src="assets/portrait.jfif" class="portrait">
 
 <! -- Personal Info -->
 <h2>Personal Info</h2>
@@ -33,15 +29,16 @@
 <! -- Five Favorite Books -->
 <h2>My five favorite books</h2>
     <ul>
-        <li><em>Ranger's Apprentice</em> by <a href="https://sites.prh.com/world-of-john-flanagan" style="text-decoration:none" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">John Flanagan</a></li>
-        <li><em>The Hobbit</em> by <a href="https://www.tolkiensociety.org/" style="text-decoration:none" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">J. R. R. Tolkein</a></li>
-        <li><em>Five Kingdoms</em> by <a href="https://brandonmull.com/" style="text-decoration:none" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">John Flanagan</a></li>
-        <li><em>Fablehaven</em> by <a href="https://brandonmull.com/" style="text-decoration:none" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">John Flanagan</a></li>
-        <li><em>The Horn of Moran</em> by <a href="https://shadowmountain.com/author-book/m-l-forman/" style="text-decoration:none" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">John Flanagan</a></li>
+        <li><em>Ranger's Apprentice</em> by <a href="https://sites.prh.com/world-of-john-flanagan" class="author_link">John Flanagan</a></li>
+        <li><em>The Hobbit</em> by <a href="https://www.tolkiensociety.org/" class="author_link">J. R. R. Tolkein</a></li>
+        <li><em>Five Kingdoms</em> by <a href="https://brandonmull.com/" class="author_link">John Flanagan</a></li>
+        <li><em>Fablehaven</em> by <a href="https://brandonmull.com/" class="author_link">John Flanagan</a></li>
+        <li><em>The Horn of Moran</em> by <a href="https://shadowmountain.com/author-book/m-l-forman/" class="author_link">John Flanagan</a></li>
     </ul>
+
 <! -- Haiku -->
 <h2>Binary Confusion</h2>
-<div style="text-align: center; white-space: pre">
+<div class="poem">
     Numbers and figures
     Make a lot of sense to me
     But people do not
@@ -75,23 +72,23 @@ know people around the world in a casual setting with a shared task.</p>
         <td></td>
         <td></td>
         <td></td>
-        <td bgcolor="#00bfff">FK1000A</td>
+        <td class="fk1000a">FK1000A</td>
     </tr>
     <tr>
         <td>17:30</td>
-        <td rowspan="3" bgcolor="red">CS305G</td>
-        <td rowspan="3" bgcolor="green">CS2600</td>
-        <td rowspan="3" bgcolor="red">CS305G</td>
-        <td rowspan="3" bgcolor="green">CS2600</td>
-        <td bgcolor="yellow">FK2000B</td>
+        <td rowspan="3" class="cs305g">CS305G</td>
+        <td rowspan="3" class="cs2600">CS2600</td>
+        <td rowspan="3" class="cs305g">CS305G</td>
+        <td rowspan="3" class="cs2600">CS2600</td>
+        <td class="fk2000b">FK2000B</td>
     </tr>
     <tr>
         <td>18:00</td>
-        <td bgcolor="#00bfff">FK1000A</td>
+        <td class="fk1000a">FK1000A</td>
     </tr>
     <tr>
         <td>18:30</td>
-        <td bgcolor="yellow">FK2000B</td>
+        <td class="fk2000b">FK2000B</td>
     </tr>
     <tr>
         <td>19:00</td>
@@ -99,9 +96,10 @@ know people around the world in a casual setting with a shared task.</p>
         <td></td>
         <td></td>
         <td></td>
-        <td bgcolor="#00bfff">FK1000A</td>
+        <td class="fk1000a">FK1000A</td>
     </tr>
 </table>
+</div>
 
 </body>
 </html>
